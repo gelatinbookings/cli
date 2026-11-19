@@ -1,0 +1,24 @@
+{
+  "name": "gelatinbookings",
+  "version": "0.1.0",
+  "description": "Add Gelatin to your app: the skill for coding agents and the partner SDK, in one command.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gelatinbookings/cli.git"
+  },
+  "homepage": "https://www.gelatinbookings.com/docs",
+  "bin": {
+    "gelatinbookings": "dist/bin.js",
+    "gelatin": "dist/bin.js"
+  },
+  "files": [
+    "dist",
+    "skill",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
